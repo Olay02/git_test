@@ -1,10 +1,19 @@
-.Button-section,
-.button-row {
+.button-row
+{
     color: gray;
+    background-color: darkolivegreen;
+    height: 40px;
+    width: 204px;
 }
 
 #Home-button,
 #Men-Artists {
     color: red;
     background-color: burlywood;
+    width:100px;
+    height: 40px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    
 }
