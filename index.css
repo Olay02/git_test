@@ -1,9 +1,17 @@
+h1 {
+    margin-left:50%;
+}
+
+
 .button-row
 {
     color: gray;
     background-color: darkolivegreen;
     height: 40px;
     width: 204px;
+    margin-top:2%;
+    margin-left:48%;
+
 }
 
 #Home-button,
