@@ -1,0 +1,10 @@
+.Button-section,
+.button-row {
+    color: gray;
+}
+
+#Home-button,
+#Men-Artists {
+    color: red;
+    background-color: burlywood;
+}
