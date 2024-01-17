@@ -1,24 +1,75 @@
-#Luck-pic{
+#Future-pic, #Luck-pic{
     height:500px;
     width:700px;
-    
+    margin: 40px;
 }
 
-#Future-pic{
-    height:500px;
-    width:500px;
+.Luck {
+    background-color: #a834eb;
+    color:antiquewhite;
 }
 
-.Luck p{
-    font-family:fantasy;
-    margin:auto;
-}
-
-.Flute p{
+.Flute, .Luck{
+    height:707px;
+    display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin:auto
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.Flute{
+    background-color:darkcyan;
+}
+p {
+    padding: 5px;
 }
 
 body {
     background-color: bisque;
+    text-align: center;
+
+    
+}
+
+.Artist_container{
+    height:800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.Home{
+    padding: 10px;
+    margin: 20px;
+    width: 15vh;
+    background-color:  gainsboro;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+}
+
+h1{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    background-color: gainsboro;
+    justify-content: center;
+    margin-left: 800px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+
 }

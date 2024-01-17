@@ -1,27 +1,67 @@
-h1 {
-    margin-left:50%;
-}
 
 
 .button-row
 {
-    color: gray;
+    color: red;
     background-color: darkolivegreen;
     height: 40px;
     width: 204px;
     margin-top:2%;
-    margin-left:48%;
+    margin:auto;
+    margin-bottom: 2%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: 2px solid red;
+    
+
 
 }
 
 #Home-button,
-#Men-Artists {
-    color: red;
+#Artists-button {
+    color: black;
     background-color: burlywood;
     width:100px;
     height: 40px;
     font-family:'Courier New', Courier, monospace;
     font-size: 20px;
     text-align: center;
+    background-size: 70px;
+    border-radius: 15px;
+
     
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+a:visited{
+    color: purple;
+
+}
+
+a:hover{
+    color: orange;
+}
+
+a:active{
+    color:red;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+    text-align: center;
+    
+}
+
+#input_tag{
+    margin:2%;
+    border-radius: 10px;
 }
